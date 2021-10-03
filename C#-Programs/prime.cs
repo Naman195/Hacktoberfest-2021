@@ -12,14 +12,14 @@ public class PrimeNumberChecker
 		{
 			if (n % i == 0)
 			{
-				Console.Write("Number is not Prime.");
+				Console.Write("Number is not Prime."); // number is not prime
 				flag = 1;
 				break;
 			}
 		}
 
 		if (flag == 0)
-			Console.Write("Number is Prime.");
+			Console.Write("Number is Prime."); // To print that the given number is prime 
 	}
 }
 
